@@ -8,3 +8,4 @@ I have uploaded the Eagle project of the board. Below you can find a list of all
 # Distintive signs
 * **5 independant stepper motor drivers**: Three of them are usually assigned to the cartesian axes X, Y, Z while the other two can be used for a 4 or 5 axes CNC, or to drive up to two extruders.
 * **4 high current PWM outputs**: I have included four low-side switch for tool/extruder/general purpose driving. With a selector you can redirect up to two digital pins to power MOSFETs. I have placed the footprint of a low-power MOS in SOT-23 (intended to drive low demanding loads like a fan) and of a high power MOS in D2Pack. The user can choose which to solder relying on the purpose.
+* **6 Inputs** I have disposed 6 independent inputs with optional anti-debouncing. Three of them are connected to the internal ADC of the microcontroller.
