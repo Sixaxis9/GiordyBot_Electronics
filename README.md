@@ -11,9 +11,11 @@ I have uploaded the Eagle project of the board. Below you can find a list of all
 * **6 Inputs** I have disposed 6 independent inputs with optional anti-debouncing. Three of them are connected to the internal ADC of the microcontroller.
 
 # Thermal Management
-Thermal performance of the motor drivers are granted by the ground plane of the PCB and optional external dissipator connected to the plastic case of the ICs. Heat is convected to the bottom bigger plane by 12 vias placed under the IC, in correspondence with the thermal pad. Solder mask is also cutted in that zone to maximize heat transfer and allow soldering. Same foresights have been applied to the switching DC-DC converter.
+Thermal performance of the motor drivers are granted by the ground plane of the PCB and optional external dissipator to be applied to the plastic case of the ICs. Heat is convected to the bottom bigger plane by 12 vias placed under the IC, in correspondence with the thermal pad. Solder mask is also omitted in that zone to maximize heat transfer and allow soldering. Same foresights have been applied to the switching DC-DC converter.
 Speaking of MOSFETs no particular solutions have been applied, since the computed power dissipated in normal operative conditions have been considered low enough to be air dissipated.
 
 # Power management
-Power supplies for tools and motors have been kept separate. This should allow to operate the motors at higher voltages in order to achieve higher efficiency. At the same time tools designed for lower voltages are widely available and much cheaper, optimizing both initial and operative costs of the build. If just one supply is to be used you should short circuit the two inputs.
-* 5V are obtained via an high efficiency switching DC-DC converter or a LDO (with 7805 compatible pinout) depending which one of the two the user inted to solder.
+Power supplies for tools and motors have been kept separate. This should allow to operate the motors at higher voltages in order to achieve higher efficiency. At the same time tools designed for lower voltages are widely available and much cheaper, optimizing both initial and operative costs of the build. If just one supply is to be used you should short circuit the two inputs. 5V for microcontroller and USB are obtained via an high efficiency switching DC-DC converter or a LDO (with 7805 compatible pinout), depending which one of the two the user intend to solder.
+
+# Computer interface
+Within the board is included a FT232 with all necessary passive components to allow a simple connection with the computer. The USB footprint is a Tybe B, but four additional pins are added to extend compability to other type of ports thanks to several pinouts board available online.
