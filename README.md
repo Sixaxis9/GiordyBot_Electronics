@@ -7,4 +7,6 @@ I have uploaded the Eagle project of the board. Below you can find a list of all
 A Wiki is available in the [apposite section](https://github.com/Sixaxis9/CNC-3Dprinter/wiki)
 
 Below some pictures of the board:
-![Soldered PCB](Wiki_Img/PCB_Project.JPG?raw=true "Title")
+
+![Soldered PCB](Wiki_Img/Soldered_PCB.jpg?raw=true "Title")
+![PCB project](Wiki_Img/PCB_Project.JPG?raw=true "Title")
