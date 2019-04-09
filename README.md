@@ -10,4 +10,3 @@ A Wiki is available in the [apposite section](https://github.com/Sixaxis9/CNC-3D
 
 Below some pictures of the board:
 ![PCB project](Wiki_Img/side_by_side.jpg?raw=true "Title")
-![Working 3D_Printer](Wiki_Img/rsz_projects.jpg?raw=true "Title")
